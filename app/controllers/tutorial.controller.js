@@ -16,7 +16,7 @@ exports.create = (req, res) => {
   };
 
   Tutorial.create(tutorial)
-    .then((date) => {
+    .then((data) => {
       res.send(data);
     })
     .catch((err) => {
